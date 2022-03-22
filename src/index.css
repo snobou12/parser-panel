@@ -1,0 +1,72 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+pre {
+  text-shadow: none !important;
+  
+}
+
+p.error {
+  color: red;
+  margin-bottom: 5px;
+}
+
+.editor #codeArea {
+  outline: none;
+  padding-left: 60px !important;
+}
+
+.editor pre {
+  padding-left: 60px !important;
+}
+
+code.code-output {
+  padding-left: 30px !important;
+}
+
+.editorLineNumber {
+  position: relative;
+  left: 0px;
+  user-select: none;
+
+  color: #cccccc;
+  text-align: right;
+  width: 40px;
+  font-weight: 100;
+}
+
+.editor .editorLineNumber {
+  position: absolute;
+  user-select: none;
+  left: 0px;
+  color: #cccccc;
+  text-align: right;
+  width: 40px;
+  font-weight: 100;
+}
+
+textarea {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  
+}
+
+.npm__react-simple-code-editor__textarea{
+  overflow-x: auto !important;
+}
+
+
+

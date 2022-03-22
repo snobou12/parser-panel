@@ -1,0 +1,1 @@
+// if the module has no dependencies, the above pattern can be simplified to
